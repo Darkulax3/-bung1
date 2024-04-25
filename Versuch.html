@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interessantes Projekt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        ::placeholder {
+            color: rgb(153, 153, 153) !important;
+            /* Farbe des Platzhaltertexts */
+        }
+    </style>
+
+
+</head>
+
+<body class="Hintergrund_anpassbar">
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-2">
+
+                <div class="sidebar-container">
+                    <div class="row">
+                        <table class="rounded-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="icon1.png" style="width: 30px; height: 30px;">
+                                        New chat
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <div class="sidebar"
+                            style="height: 100vh; overflow-y: auto; background-color: #f9f9f9; padding: 10px;">
+                            <table class="rounded-table">
+                                <tbody>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet</td>
+                                    </tr>
+                                    <!-- Weitere Sidebar-Inhalte -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-md-10" style="overflow-y: auto;">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-10"
+                        style="position: absolute; top: 0px; background-color: rgb(255, 255, 255); padding: 15px">
+                        <button type="button" class="btn custom-Button">
+                            <span class="fw-medium" style="color: black;">CatGPT</span>
+                            <span class="fw-medium" style="color: gray;">1.0</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <!-- Hier verwenden wir eine textarea anstelle eines p-Elements -->
+                    <p>
+                        orem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        takimata
+                        sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        takimata
+                        sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut
+                        labore et dolore magna aliquyam erat, sed diam voluptua.
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                        takimata
+                        sanctus est Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut
+                    </p>
+                </div>
+
+                <input type="text" id="inputField" placeholder="Eingabe">
+                <button onclick="copyInputToTextField()">Kopieren</button>
+                <br>
+                <textarea id="outputField" rows="4" cols="50"></textarea>
+
+                <script>
+                    function copyInputToTextField() {
+                        // Den Wert des Eingabefelds auslesen
+                        var inputText = document.getElementById('inputField').value;
+
+                        // Den Wert in das Textfeld einfügen
+                        document.getElementById('outputField').value = inputText;
+                    }
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row justify-content-center">
+                    <div class="col-md-4"
+                        style="position: absolute; bottom: 0px; background-color: white; padding: 15px">
+                        <div>
+                            <!-- Hier verwenden wir eine Textarea anstelle eines Inputfelds -->
+                            <textarea id="inputField" class="form-control" placeholder="Message CatGPT..."></textarea>
+                            <button onclick="copyInputToTextField()">Kopieren</button>
+                        </div>
+
+                        <p class="fw-light text-center" style="font-size: 12px; color: rgb(153, 153, 153)">
+                            CatGPT loves making mistakes. Consider checking important information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

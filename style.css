@@ -1,0 +1,50 @@
+/*Hintergründe*/
+
+.Hintergrund_anpassbar {
+    background-color: #ffffff;
+}
+
+.Hintergrund_anpassbar2 {
+    background-color: #212121;
+}
+
+/*Tabelle mit rundem Hover*/
+
+.rounded-table tr:hover td {
+    background-color: #f5f5f5;
+}
+.rounded-table th, .rounded-table td {
+    padding: 8px;
+    border: none; /*Keine Lininen*/
+    text-align: left;
+    border-radius: 10px; /*Abrundung hier*/
+}
+.rounded-table th {
+    background-color: #f2f2f2;
+}
+
+/*Scrollbare Sidebar*/
+
+.sidebar-container {
+    height: calc(100vh - 20px); /*Höhe der Sidebar anpassen*/
+    overflow-y: auto;
+}
+
+/*Anpassung Hauptinhalt*/
+
+.col-md-10 {
+    max-height: 100vh; /* Höhe des Columns auf Höhe des Viewports*/
+    overflow-y: auto; /* Vertikales Scrollen des Hauptinhalts bei zu viel Inhalt*/
+}
+
+/*Eigener Button*/
+.custom-Button {
+    background-color: white; /* Orange Hintergrundfarbe */
+    border-radius: 5px; /* Abgerundete Ecken */
+    padding: 10px 20px; /* Innenabstand */
+    font-size: 16px; /* Schriftgröße */
+}
+
+.custom-Button:hover {
+    background-color: #f7f7f7; /* Hellere Farbe beim Hover */
+}
