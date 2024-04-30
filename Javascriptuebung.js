@@ -16,4 +16,4 @@ let hallo= Number(prompt("Gebe eine Zahl ein:"))
 
 // hallo = 5 ? console.log("Du hast eine 5") : console.log("Nicht meine zahl") 
 
-if (hallo == )
+if (hallo == )branch
